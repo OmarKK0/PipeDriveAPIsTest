@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app"></div>
+    <h1>
+        The Process of add a new Participant through PipeDrive APIs
+    </h1>
+    <ol>
+        <li>
+            <h5>
+                Get The API Key to use on all API calls
+            </h5>
+        </li>
+
+        <li>
+            <h5>
+                Get Your User ID Using Current User API Call
+            </h5>
+        </li>
+        <li>
+            <h5>
+                Add new person using API Call you need (Contact info, Owner ID, Organization ID)
+            </h5>
+        </li>
+        <li>
+            <h5>
+                Add Participent to the deal using API call with (Deal ID at params, Person ID in request's Body)
+            </h5>
+        </li>
+    </ol>
+
+    <div id="app"></div>
+    <h1>
+        Adding activeties for the participant
+    </h1>
+    <ol>
+        <li>
+            <h5>
+                Use APIs Add Activety you need (Activety Info, person ID, Deal Id)
+            </h5>
+        </li>
+    </ol>
+
+    <textarea placeholder="Input" id="rawInput"></textarea>
+    </br>
+    <button>iterate email format</button>
+    <button onclick="onMake()">Make</button>
+    <button onclick="addPPAToDeal()">Add PPA To Deal </button>
+    </br>
+    <textarea placeholder="Output" id="objectDisplay"></textarea>
+
+
+</body>
+<script src="src/index.js"></script>
+
+</html>
